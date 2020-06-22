@@ -131,4 +131,24 @@ color: rgb(255, 255, 255);
 
 
 
-</style>
+
+/* contact Form************************************************** */
+
+.contactForm{
+  width: 50%;
+  margin: auto;
+  padding: 5px;
+}
+
+@media(max-width:720px){
+
+.contactForm{
+  width: auto;
+}
+
+
+}
+
+
+/* contact Form************************************************** */
+
