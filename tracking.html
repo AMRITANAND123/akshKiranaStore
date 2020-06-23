@@ -66,16 +66,16 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item ">
+                        <li class="nav-item">
                             <a class="nav-link" href="index.html"><i class="fa fa-home fa-fw"
                                     aria-hidden="true"></i>&nbsp;Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
                         </li>
 
 
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="tracking.html">Tracking</a>
                         </li>
                         <li class="nav-item">
@@ -128,63 +128,80 @@
     *********** Alert End*************** -->
 
 
-        <!--*********** About Start *************** -->
-      
-    <div id="about" class="section wb">
-      <div class="container mt-3">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="message-box">
-              <h4>About Us</h4>
-              <h2>ABOUT AKSH KIRANA STORE</h2>
-           
+        <!--*********** Tracking End*************** -->
+        <div class="container" style="background-color: aqua; margin-bottom:10px;">
+        <div class="contactForm">
+            <form>
 
-              <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum.
-                Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes,
-                nascetur ridiculus mus. Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac
-                egestas libero, eu bibendum risus. Phasellus et congue justo. </p>
-
-           
-            </div><!-- end messagebox -->
-          </div><!-- end col -->
-
-          <div class="col-md-6">
-            <div class="post-media wow fadeIn">
-              <img src="img/kirana.jpg" width="100%" alt="" class="img-responsive img-rounded">
-              <a href="http://www.youtube.com/watch?v=nrJtHemSPW4" data-rel="prettyPhoto[gal]" class="playbutton"><i
-                  class="flaticon-play-button"></i></a>
-            </div><!-- end media -->
-          </div><!-- end col -->
-        </div><!-- end row -->
-
-        <hr class="hr1">
-
-        <div class="row">
-          <div class="col-md-6">
-            <div class="post-media wow fadeIn">
-              <img src="img/download.jfif" width="100%" alt="" class="img-responsive img-rounded">
-            </div><!-- end media -->
-          </div><!-- end col -->
-
-          <div class="col-md-6">
-            <div class="message-box">
-          
-              <h2>WHERE AKSH KIRANA STORE </h2>
-           
-              <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum.
-                Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes,
-                nascetur ridiculus mus. Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac
-                egestas libero, eu bibendum risus. Phasellus et congue justo. </p>
-
-          
-            </div><!-- end messagebox -->
-          </div><!-- end col -->
-        </div><!-- end row -->
-      </div><!-- end container -->
-    </div><!-- end section -->
+                <center>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Enter Order ID</label>
+                    <input type="text" name="trackId" class="form-control" id="trackId" aria-describedby="emailHelp"
+                        required>
+                </div>
+                <button type="submit" class="btn btn-primary ">Submit</button>
+            </center>
+            </form>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 mt-4">
 
 
-        <!-- *********** About End*************** -->
+
+
+
+
+
+
+
+        </div>
+
+<div class="container px-1 px-md-4 py-5 mx-auto">
+    <div class="card">
+        <div class="row d-flex justify-content-between px-3 top">
+            <div class="d-flex">
+                <h5>ORDER <span class="text-primary font-weight-bold">#Y34XDHR</span></h5>
+            </div>
+            <div class="d-flex flex-column text-sm-right">
+                <p class="mb-0">Expected Arrival <span>01/12/19</span></p>
+                <p>USPS <span class="font-weight-bold">234094567242423422898</span></p>
+            </div>
+        </div> <!-- Add class 'active' to progress -->
+        <div class="row d-flex justify-content-center">
+            <div class="col-12">
+                <ul id="progressbar" class="text-center">
+                   <li class="active step0"><h3>1</h3></li>
+                    <li class="active step0"><h3>2</h3></li>
+                    <li class=" step0"><h3>3</h3></li>
+                    <li class="step0"><h3>4</h3></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row justify-content-between top">
+            <div class="row d-flex icon-content"> <img class="icon" src="https://i.imgur.com/9nnc9Et.png">
+                <div class="d-flex flex-column">
+                    <p class="font-weight-bold">Order<br>Processed</p>
+                </div>
+            </div>
+            <div class="row d-flex icon-content"> <img class="icon" src="https://i.imgur.com/u1AzR7w.png">
+                <div class="d-flex flex-column">
+                    <p class="font-weight-bold">Order<br>Shipped</p>
+                </div>
+            </div>
+            <div class="row d-flex icon-content"> <img class="icon" src="https://i.imgur.com/TkPm63y.png">
+                <div class="d-flex flex-column">
+                    <p class="font-weight-bold">Order<br>En Route</p>
+                </div>
+            </div>
+            <div class="row d-flex icon-content"> <img class="icon" src="https://i.imgur.com/HdsziHP.png">
+                <div class="d-flex flex-column">
+                    <p class="font-weight-bold">Order<br>Arrived</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- *********** Tracking End*************** -->
 
 
 
