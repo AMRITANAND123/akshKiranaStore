@@ -126,17 +126,14 @@ body {
   color: #000;
   overflow-x: hidden;
   height: 100%;
-  background-color: #8C9EFF;
+  background-color: #f8f8fb;
   background-repeat: no-repeat
 }
 
 .card {
   z-index: 0;
   background-color: #ECEFF1;
-  padding-bottom: 20px;
-  margin-top: 90px;
-  margin-bottom: 90px;
-  border-radius: 10px
+
 }
 
 .top {
